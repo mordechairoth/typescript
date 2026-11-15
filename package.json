@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "hello.ts",
+  "scripts": {
+    "test": "echo \"works...\"",
+    "build": "tsc",
+    "dev": "tsc && node ./dist/hello.js"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
